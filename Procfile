@@ -1,1 +1,1 @@
-worker1: npm i ffmpeg@latest && npm i @adiwajshing/baileys@3.5.3 && npm i -g forever && forever main.js
+worker : npm install ffmpeg && npm install -g pm2 && pm2 start start.js && pm2 save && pm2 logs
